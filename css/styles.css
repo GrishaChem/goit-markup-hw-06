@@ -34,6 +34,8 @@ h2 {
 
 img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 ul {
@@ -510,6 +512,9 @@ ul {
 }
 
 .our-portfolio-img {
+  /* width: 288px;
+  height: 280px;
+  flex-shrink: 0; */
 }
 
 .footer {
