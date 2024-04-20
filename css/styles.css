@@ -573,7 +573,7 @@ ul {
   display: flex;
   align-items: baseline;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   /* align-items: center; */
 }
 
@@ -1050,9 +1050,7 @@ ul {
 
   .footer-wrapper {
     display: flex;
-    /* align-items: baseline; */
     flex-direction: row;
-    /* justify-content: center; */
     flex-wrap: wrap;
     width: 584px;
   }
@@ -1072,7 +1070,6 @@ ul {
 
   .social-media-wrap {
     margin: 0;
-    /* margin-right: 80px; */
   }
 
   .footer-container-third {
@@ -1189,5 +1186,16 @@ ul {
 
   .our-portfolio-list {
     gap: 40px 24px;
+  }
+
+  .footer {
+  }
+
+  .social-media-wrap {
+    margin-right: 80px;
+  }
+
+  .footer-container-first {
+    margin-right: 120px;
   }
 }
